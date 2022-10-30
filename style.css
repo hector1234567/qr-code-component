@@ -50,7 +50,7 @@ body {
     text-align: center;
     color: #1F314F;
     margin: 0 16px;
-    padding: 8px 3px;
+    padding: 8px 3px 0 3px;
 }
 
 .qr-card__text {
