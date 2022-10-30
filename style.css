@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    height: 100vh;
+    background-color: #D5E1EF;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.1875px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-card {
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 497px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    border-radius: 20px;
+}
+
+.qr-card__image-container {
+    background-image: url("images/image-qr-code.png");
+    width: 288px;
+    height: 288px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 16px;
+}
+
+.qr-card__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #1F314F;
+    margin: 0 16px;
+    padding: 8px 3px;
+}
+
+.qr-card__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+    color: #7D889E;
+    margin: 16px;
+    padding: 0 8px;
+}
