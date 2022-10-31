@@ -52,7 +52,7 @@ body {
     text-align: center;
     color: #1F314F;
     margin: 0 1.6rem;
-    padding: .8rem .3rem 0 .3rem;
+    padding: .8rem .5rem 0 .5rem;
 }
 
 .qr-card__text {
@@ -63,6 +63,7 @@ body {
     letter-spacing: 0.01875rem;
     color: #7D889E;
     margin: 1.6rem;
+    padding: 0 .8rem;
 }
 
 .attribution { 
